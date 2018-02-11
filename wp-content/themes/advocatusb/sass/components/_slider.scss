@@ -1,0 +1,23 @@
+.flexslider.client_slider {
+    background-color: $dark-color;
+    margin-top: 80px;
+    border: none;
+
+    .slides{
+        @include list-reset;
+    }
+}
+
+.flex-control-nav {
+    li{
+        border: 1px solid $first-main-color;
+        border-radius: 50%;
+        a {
+            background-color: transparent;
+            .flex-active {
+                background-color: $first-main-color;
+            }
+        }
+    }
+
+}

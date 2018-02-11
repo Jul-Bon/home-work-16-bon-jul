@@ -1,0 +1,23 @@
+.single_lawyer {
+    border-top: 3px solid $accent-color;
+    .lawyer_img {
+        max-width: 400px;
+        margin: 30px auto;
+    }
+
+    h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    p {
+        padding: 10px 0;
+    }
+    .about_lawyer {
+        margin-bottom: 40px;
+    }
+}
+
+.single_nav {
+    padding-bottom: 50px;
+}
